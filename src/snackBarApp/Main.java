@@ -4,16 +4,16 @@ public class Main
 {
 	public static void main(String[] args)
 	{
-		//New customers
+		// New customers
 		Customer c1 = new Customer("Jane", 45.25);
 		Customer c2 = new Customer("Bob", 33.14);
 
-		//Vending Machines
+		// Vending Machines
 		VendingMachines vFood = new VendingMachines("Food");
 		VendingMachines vDrink = new VendingMachines("Drink");
 		VendingMachines vOffice = new VendingMachines("Office");
 
-		//Snacks
+		// Snacks
 		Snacks s1 = new Snacks(vFood.getId(), "Chips", 1.75, 36);
 		Snacks s2 = new Snacks(vFood.getId(), "Chocolate Bar", 1, 36);
 		Snacks s3 = new Snacks(vFood.getId(), "Pretzel", 1, 36);
